@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 
 // API 配置
-const API_BASE = 'http://172.26.94.5:8000';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
 
 // 会话数据结构
 const createEmptySession = (id = null, title = '直播切片') => ({
