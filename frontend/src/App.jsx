@@ -679,7 +679,7 @@ function App() {
             </div>
             <div>
               <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-                赛博学长
+                赛博户子
               </h1>
               <p className="text-xs text-gray-500">沉浸式直播连麦</p>
             </div>
@@ -740,7 +740,7 @@ function App() {
             {isStreaming && (
               <div className="flex items-center gap-2">
                 <Loader2 className="w-4 h-4 text-blue-400 animate-spin" />
-                <span className="text-sm text-gray-400">学长思考中...</span>
+                <span className="text-sm text-gray-400">风哥思考中...</span>
               </div>
             )}
           </div>
